@@ -34,6 +34,20 @@ public class NumberTest {
         assertEquals(expectedResult, result);
 
     }
+    @Test
+    public void if_input_contains_letters_prints_invalid()
+    {
+        //arrange
+        String input = "+1a010101010";
+        String expectedResult = "Invalid";
+        Number cut = new Number(input);
+
+        //act
+        String result = cut.getPhoneNumber();
+
+        //assert
+        assertEquals(expectedResult, result);
+    }
 
 
 }

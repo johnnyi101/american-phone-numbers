@@ -1,5 +1,9 @@
 package numbers;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Number {
     private String phoneNumber;
 
@@ -7,12 +11,19 @@ public class Number {
         this.phoneNumber = phoneNumber;
 
 
-        char[] cArray = phoneNumber.toCharArray();
-        if (cArray.length == 12 && cArray[0]=='+' && cArray[1]== '1'){
-            setPhoneNumber(phoneNumber);
-        }
-        else
-            setPhoneNumber("Invalid");
+        ArrayList<Character> chars = new ArrayList<Character>();
+        for (char c : phoneNumber.toCharArray()) {
+            chars.add(c);
+            }
+       if(!phoneNumber.matches(".*[a-zA-Z].*")){
+
+                if (chars.size() == 12 && chars.get(0) =='+' && chars.get(1) == '1'){
+                    setPhoneNumber(phoneNumber);
+                }
+                else
+                    setPhoneNumber("Invalid");}
+       else
+           setPhoneNumber("Invalid");
 
 
     }
