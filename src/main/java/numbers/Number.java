@@ -8,11 +8,11 @@ public class Number {
 
 
         char[] cArray = phoneNumber.toCharArray();
-        if (cArray.length == 12){
+        if (cArray.length == 12 && cArray[0]=='+' && cArray[1]== '1'){
             setPhoneNumber(phoneNumber);
         }
         else
-            setPhoneNumber("Invalid!");
+            setPhoneNumber("Invalid");
 
 
     }

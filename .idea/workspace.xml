@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afa59cb1-70ff-4034-b598-fdc1f80eef9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/numbers/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/numbers/NumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/numbers/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/numbers/Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/numbers/NumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/numbers/NumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.NumberTest">
     <configuration name="NumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="american-phone-numbers" />
       <extension name="coverage">
@@ -57,9 +55,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberTest.takes_a_valid_length_number_and_returns_it" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="american-phone-numbers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="numbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="numbers" />
+      <option name="MAIN_CLASS_NAME" value="numbers.NumberTest" />
+      <option name="METHOD_NAME" value="takes_a_valid_length_number_and_returns_it" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.NumberTest" />
+        <item itemvalue="JUnit.NumberTest.takes_a_valid_length_number_and_returns_it" />
       </list>
     </recent_temporary>
   </component>
@@ -93,5 +108,21 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="445" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578909430644" />
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1578911881769">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578911881769" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1578911881769">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578911881769" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1578911881769">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578911881769" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1578911881769">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578911881769" />
   </component>
 </project>

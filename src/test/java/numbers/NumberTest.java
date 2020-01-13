@@ -20,8 +20,18 @@ public class NumberTest {
     }
 
     @Test
-    public void test2()
+    public void print_invalid_if_1st_and_second_value_arent_plus1()
     {
+        //arrange
+        String input = "-21010101010";
+        String expectedResult = "Invalid";
+        Number cut = new Number(input);
+
+        //act
+        String result = cut.getPhoneNumber();
+
+        //assert
+        assertEquals(expectedResult, result);
 
     }
 
